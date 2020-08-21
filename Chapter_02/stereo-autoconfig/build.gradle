@@ -8,8 +8,8 @@ jar {
 }
 
 repositories {
-    mavenLocal()
     mavenCentral()
+
 }
 
 dependencies {
