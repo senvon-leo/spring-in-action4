@@ -1,4 +1,4 @@
-apply plugin: 'jetty'
+//apply plugin: 'gretty'
 apply plugin: 'eclipse'
 apply plugin: 'war'
 apply plugin: 'eclipse-wtp'
@@ -31,8 +31,8 @@ dependencies {
     testCompile "org.mockito:mockito-all:$mockitoVersion"
 }
 
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
+wrapper {
+	gradleVersion = '6.6'
 }
 
 war {
